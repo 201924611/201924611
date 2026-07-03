@@ -1,8 +1,9 @@
 <h1 align="center">안녕하세요, 허진수입니다 👋</h1>
 
 <p align="center">
-  풀스택으로 서비스를 만들고 실제 배포까지 운영하는 것을 좋아하는 개발자입니다.<br/>
-  Java/Spring 백엔드와 Next.js 프론트엔드를 함께 다루며, 최근에는 AI 에이전트에 관심이 많습니다.
+  풀스택으로 서비스를 만들어 <b>실제 배포·운영</b>까지 이어가는 개발자입니다.<br/>
+  Java/Spring 백엔드와 Next.js/React 프론트엔드를 함께 다루며,<br/>
+  최근에는 <b>딥러닝·LLM 기반 AI 프로젝트</b>와 팀 단위 협업에 집중하고 있습니다.
 </p>
 
 <p align="center">
@@ -18,7 +19,8 @@
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![JPA](https://img.shields.io/badge/JPA-59666C?style=flat-square&logo=hibernate&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
-![MyBatis](https://img.shields.io/badge/MyBatis-red?style=flat-square)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
 **Frontend**
@@ -28,33 +30,90 @@
 ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
-**AI / Etc.**
+**AI / ML**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+
+**Etc.**
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 ---
 
-## 🌟 대표 프로젝트
+## 🌊 대표 서비스 — OceanKeeper
 
-### 🌊 [OceanKeeper — 바다살리기네트워크](https://github.com/201924611/oceankeeper)
-> 해양 정화 봉사활동을 연결하는 웹 플랫폼 · **팀 프로젝트(5인)** · 🔗 **[oceankeeper.org](https://oceankeeper.org) 배포 운영 중**
+### [OceanKeeper — 바다살리기네트워크](https://github.com/201924611/oceankeeper)
+> 해양 정화 봉사활동을 연결하는 웹 플랫폼 · **팀 프로젝트** · 🔗 **[oceankeeper.org](https://oceankeeper.org) 배포 운영 중**
 
-- **풀스택** 참여 — Next.js 16 프론트엔드 + Spring Boot 백엔드
-- 커뮤니티·마이페이지, 수거 기록 통합, 이미지 리사이징 공용화, 권한별 인증 UX 담당
+- **풀스택** 참여 — Next.js 프론트엔드 + Spring Boot 백엔드
+- 커뮤니티·마이페이지, 수거 활동 기록 통합, 이미지 리사이징 공용화, 권한별 인증 UX 담당
 - `Next.js 16` · `NextAuth` · `Spring Boot 3.5` · `JPA` · `PostgreSQL` · `Azure Blob`
 
-### 🤖 [agent-core](https://github.com/201924611/agent-core)
-> 24시간 자율 수행 중앙 오케스트레이터 — HTTP goal을 받아 하위 에이전트·빌드 루프·trace/eval로 자율 실행
+<p align="center">
+  <img src="https://raw.githubusercontent.com/201924611/oceankeeper/master/docs/screenshots/desktop-landing.png" alt="OceanKeeper 메인 랜딩" width="49%"/>
+  <img src="https://raw.githubusercontent.com/201924611/oceankeeper/master/docs/screenshots/desktop-map.png" alt="OceanKeeper 활동 지도" width="49%"/>
+</p>
 
+---
+
+## 🤖 AI / 딥러닝
+
+### [3D 뇌종양 MRI Segmentation](https://github.com/pnucse-capstone-2024/Capstone-2024-team-01) · 대학 졸업과제
+> BraTS 데이터셋 기반 3D 뇌종양 분할 딥러닝 모델 + 웹 연동 시스템 · **팀 프로젝트(부산대 CSE 2024 캡스톤 팀1)**
+
+- **U-Net** 구조로 3D MRI 뇌종양 영역을 정밀 Segmentation, Dice coefficient·cross entropy loss로 성능 최적화
+- 모델 추론(Flask) → 게이트웨이(Node.js) → 업로드·시각화(React)로 이어지는 **웹 연동 파이프라인** 구축
+- `Python` · `TensorFlow` · `Keras` · `React` · `Node.js` · `Flask`
+
+### meisllm — 사내 RAG 챗봇 에이전트 *(private)*
+> Gemma 3/4 기반 사내 지식 챗봇 에이전트 · **개인 프로젝트**
+
+- **Gemma 3/4 QLoRA 파인튜닝** + **ChromaDB 벡터 RAG**로 사내 문서 질의응답 구성
+- `FastAPI` + `SSE` 스트리밍 응답 서빙
+- `Python` · `QLoRA` · `ChromaDB` · `FastAPI` · `SSE`
+- 🔒 비공개 저장소 — 코드 대신 구성만 소개
+
+### [agent-core — 자율 오케스트레이터](https://github.com/201924611/agent-core)
+> HTTP로 목표(goal)를 받아 24시간 자율 수행하는 중앙 오케스트레이터 · **개인 프로젝트**
+
+- 하위 에이전트 동적 생성·위임, 반복 빌드 루프, 실행 trace/eval 자동 기록
 - `Python` · LLM 에이전트 오케스트레이션
 
-### 🧩 오픈소스 기여 (진행 중)
-- [testcontainers-java](https://github.com/201924611/testcontainers-java) — Java 통합 테스트 라이브러리 기여 학습
-- [first-contributions](https://github.com/201924611/first-contributions) — 오픈소스 기여 워크플로 실습
+---
 
-### 📚 [algorithm](https://github.com/201924611/algorithm)
-> 백준(BOJ) 문제 풀이 자동 업로드 · 꾸준한 알고리즘 학습 기록
+## 🧑‍🤝‍🧑 팀 / 공모전
+
+### [AI 기반 통합 공항시설 관리 시스템](https://github.com/airport-ai-facility-monitoring) · 팀 프로젝트
+> 지방공항용 저비용·고효율 AI 시설 관리 솔루션 — 이상 탐지 · 수리비용/기간 예측 · **보고서 자동 생성** 올인원 시스템
+
+- AI 리포트 생성(`ai-report`, `ai-report-maintenance`)과 프론트/백엔드 워크스페이스로 구성된 **멀티 레포 팀 프로젝트**
+- `Java` · `Spring Boot` · `JavaScript` · `Vue` · `AI 리포트 자동화`
+
+### [Bilive — 밴드 합주실 예약 플랫폼](https://github.com/PROFITLAB-HACKATHON-2025/bilive_frontend) · 해커톤
+> 밴드 합주실 검색·예약·커뮤니티를 하나로 묶은 모바일 웹앱 · **2025 PROFITLAB 해커톤 출품작 (팀 프로젝트)**
+
+- 지도 기반 합주실 검색과 필터 UI 중심의 모바일 웹앱 MVP 구축
+- `React` · `TypeScript` · `Zustand` · `React Query` · `styled-components` · `Vite`
+- 프론트엔드 공개 · 백엔드 비공개
+
+### [DAIC — ToTime 문서 일정 자동화](https://github.com/2024-PNU-SW-StudyGroup/DAIC-naggedenaum) · 문서 AI 공모전
+> 문서에서 일정·마감일을 추출해 워크시트를 자동 생성하는 플랫폼 · **PNU × Upstage Document AI Challenge 2025 (팀 '내께더나음')**
+
+- Upstage **Document Parse**로 PDF/PPT/이미지 문서에서 시간 데이터 추출, **Solar Embedding** 기반 중요도 정렬
+- Notion·Google Calendar 연동으로 실무 적용까지 고려
+- `Python` · `Upstage API` · `Document Parse` · `Solar Embedding`
+
+---
+
+## 📚 기타
+
+### [algorithm](https://github.com/201924611/algorithm)
+> 백준(BOJ) 문제 풀이 자동 업로드 · 꾸준한 알고리즘 학습 기록 · `Java`
+
+### [anti-theft-blanket](https://github.com/embeded-07/anti-theft-blanket)
+> 부산대 임베디드시스템설계및실험 과목 프로젝트 · **팀 프로젝트** · `C`
 
 ---
 
