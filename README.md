@@ -37,8 +37,8 @@
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 
 **Cloud / Etc.**
-![AWS Lambda](https://img.shields.io/badge/AWS_Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Azure Functions](https://img.shields.io/badge/Azure_Functions-0062AD?style=flat-square&logo=azurefunctions&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
@@ -50,9 +50,9 @@
 > 해양 정화 봉사활동을 연결하는 웹 플랫폼 · **팀 프로젝트(5인)** · 🔗 **[oceankeeper.org](https://oceankeeper.org) 배포 운영 중**
 
 - **풀스택** — Next.js 프론트엔드 + Spring Boot 백엔드 (FE ~56 · BE ~36 커밋)
-- 🔧 **이미지 처리 CPU 부하를 AWS Lambda 서버리스로 오프로딩** → 처리 시간 **약 75%↓**, 서버리스 가용률 **~99.9%** <sub>(개선 근사치)</sub>
+- 🔧 **이미지 처리 CPU 부하를 Azure Functions 서버리스로 오프로딩** → 처리 시간 **약 75%↓**, 서버리스 가용률 **~99.9%** <sub>(개선 근사치)</sub>
 - 인증/권한(Spring Security·JWT + NextAuth), 커뮤니티·마이페이지, 통계 시각화(Nivo/ECharts), PWA 오프라인 캐시 담당
-- `Next.js 16` · `NextAuth` · `Spring Boot 3.5` · `Spring Security/JWT` · `JPA` · `PostgreSQL` · `AWS Lambda` · `Azure Blob`
+- `Next.js 16` · `NextAuth` · `Spring Boot 3.5` · `Spring Security/JWT` · `JPA` · `PostgreSQL` · `Azure Functions` · `Azure Blob`
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/201924611/oceankeeper/master/docs/screenshots/desktop-landing.png" alt="OceanKeeper 메인 랜딩" width="49%"/>
