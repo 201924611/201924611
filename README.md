@@ -2,7 +2,7 @@
 
 <p align="center">
   풀스택으로 서비스를 만들어 <b>실제 배포·운영</b>까지 이어가는 개발자입니다.<br/>
-  Java/Spring 백엔드와 Next.js/React 프론트엔드를 함께 다루며,<br/>
+  Java/Spring 백엔드와 React 프론트엔드를 함께 다루며,<br/>
   최근에는 <b>딥러닝·LLM 기반 AI 프로젝트</b>와 팀 단위 협업에 집중하고 있습니다.
 </p>
 
