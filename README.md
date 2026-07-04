@@ -50,7 +50,7 @@
 > 해양 정화 봉사활동을 연결하는 웹 플랫폼 · **팀 프로젝트(5인)** · 🔗 **[oceankeeper.org](https://oceankeeper.org) 배포 운영 중**
 
 - **풀스택** — Next.js 프론트엔드 + Spring Boot 백엔드 (FE ~56 · BE ~36 커밋)
-- 🔧 **이미지 처리 CPU 부하를 Azure Functions 서버리스로 오프로딩** → 처리 시간 **약 75%↓**, 서버리스 가용률 **~99.9%** <sub>(개선 근사치)</sub>
+- 🔧 **낙관적 업로드 + 비동기 압축 파이프라인 설계** — 원본 즉시 업로드 → Azure Functions 비동기 압축 → DB 경로 교체 → 원본 cold 이동 → 처리 체감 **6~7초 → 0.2~0.3초**, 용량 **2.6MB → 344KB(~8배↓)**
 - 인증/권한(Spring Security·JWT + NextAuth), 커뮤니티·마이페이지, 통계 시각화(Nivo/ECharts), PWA 오프라인 캐시 담당
 - `Next.js 16` · `NextAuth` · `Spring Boot 3.5` · `Spring Security/JWT` · `JPA` · `PostgreSQL` · `Azure Functions` · `Azure Blob`
 
