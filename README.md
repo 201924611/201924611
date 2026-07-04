@@ -36,7 +36,9 @@
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 
-**Etc.**
+**Cloud / Etc.**
+![AWS Lambda](https://img.shields.io/badge/AWS_Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
@@ -45,11 +47,12 @@
 ## 🌊 대표 서비스 — OceanKeeper
 
 ### [OceanKeeper — 바다살리기네트워크](https://github.com/201924611/oceankeeper)
-> 해양 정화 봉사활동을 연결하는 웹 플랫폼 · **팀 프로젝트** · 🔗 **[oceankeeper.org](https://oceankeeper.org) 배포 운영 중**
+> 해양 정화 봉사활동을 연결하는 웹 플랫폼 · **팀 프로젝트(5인)** · 🔗 **[oceankeeper.org](https://oceankeeper.org) 배포 운영 중**
 
-- **풀스택** 참여 — Next.js 프론트엔드 + Spring Boot 백엔드
-- 커뮤니티·마이페이지, 수거 활동 기록 통합, 이미지 리사이징 공용화, 권한별 인증 UX 담당
-- `Next.js 16` · `NextAuth` · `Spring Boot 3.5` · `JPA` · `PostgreSQL` · `Azure Blob`
+- **풀스택** — Next.js 프론트엔드 + Spring Boot 백엔드 (FE ~56 · BE ~36 커밋)
+- 🔧 **이미지 처리 CPU 부하를 AWS Lambda 서버리스로 오프로딩** → 처리 시간 **약 75%↓**, 서버리스 가용률 **~99.9%** <sub>(개선 근사치)</sub>
+- 인증/권한(Spring Security·JWT + NextAuth), 커뮤니티·마이페이지, 통계 시각화(Nivo/ECharts), PWA 오프라인 캐시 담당
+- `Next.js 16` · `NextAuth` · `Spring Boot 3.5` · `Spring Security/JWT` · `JPA` · `PostgreSQL` · `AWS Lambda` · `Azure Blob`
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/201924611/oceankeeper/master/docs/screenshots/desktop-landing.png" alt="OceanKeeper 메인 랜딩" width="49%"/>
@@ -76,10 +79,11 @@
 - 🔒 비공개 저장소 — 코드 대신 구성만 소개
 
 ### [agent-core — 자율 오케스트레이터](https://github.com/201924611/agent-core)
-> HTTP로 목표(goal)를 받아 24시간 자율 수행하는 중앙 오케스트레이터 · **개인 프로젝트**
+> HTTP로 목표(goal)를 받아 24시간 자율 수행하는 중앙 오케스트레이터 · **개인 프로젝트 · MIT 오픈소스**
 
-- 하위 에이전트 동적 생성·위임, 반복 빌드 루프, 실행 trace/eval 자동 기록
-- `Python` · LLM 에이전트 오케스트레이션
+- 하위 에이전트 동적 생성·위임, 계획가→실행가→평가가 반복 빌드 루프, 실행 trace/eval 자동 기록
+- 내장 웹 채팅 UI · Telegram 채널 · 데스크톱 앱(.exe) 패키징까지 구현
+- `Python` · `FastAPI` · LLM 에이전트 오케스트레이션
 
 ---
 
