@@ -3,7 +3,7 @@
 <p align="center">
   풀스택으로 서비스를 만들어 <b>실제 배포·운영</b>까지 이어가는 개발자입니다.<br/>
   Java/Spring 백엔드와 React 프론트엔드를 함께 다루며,<br/>
-  최근에는 <b>딥러닝·LLM 기반 AI 프로젝트</b>와 팀 단위 협업에 집중하고 있습니다.
+  최근에는 <b>딥러닝·LLM 기반 AI 프로젝트</b>를 직접 구현하며 팀 단위로 협업해왔습니다.
 </p>
 
 <p align="center">
@@ -24,11 +24,8 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
 **Frontend**
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
 **AI / ML**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -113,13 +110,6 @@
 - 지도 기반 합주실 검색과 필터 UI 중심의 모바일 웹앱 MVP 구축
 - `React` · `TypeScript` · `Zustand` · `React Query` · `styled-components` · `Vite`
 - 프론트엔드 공개 · 백엔드 비공개
-
-### [DAIC — ToTime 문서 일정 자동화](https://github.com/2024-PNU-SW-StudyGroup/DAIC-naggedenaum) · 문서 AI 공모전
-> 문서에서 일정·마감일을 추출해 워크시트를 자동 생성하는 플랫폼 · **PNU × Upstage Document AI Challenge 2025 (팀 '내께더나음')**
-
-- Upstage **Document Parse**로 PDF/PPT/이미지 문서에서 시간 데이터 추출, **Solar Embedding** 기반 중요도 정렬
-- Notion·Google Calendar 연동으로 실무 적용까지 고려
-- `Python` · `Upstage API` · `Document Parse` · `Solar Embedding`
 
 ---
 
