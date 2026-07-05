@@ -3,7 +3,7 @@
 <p align="center">
   풀스택으로 서비스를 만들어 <b>실제 배포·운영</b>까지 이어가는 개발자입니다.<br/>
   Java/Spring 백엔드와 React 프론트엔드를 함께 다루며,<br/>
-  최근에는 <b>딥러닝·LLM 기반 AI 프로젝트</b>를 직접 구현하며 팀 단위로 협업해왔습니다.
+  실서비스 이미지 처리 <b>6~7초 → 0.2~0.3초</b>, 통계 쿼리 <b>45초 → 1초</b> 등 성능 문제를 수치로 해결해왔습니다.
 </p>
 
 <p align="center">
@@ -108,7 +108,7 @@
 > 밴드 합주실 검색·예약·커뮤니티를 하나로 묶은 모바일 웹앱 · **2025 PROFITLAB 해커톤 출품작 (팀 프로젝트)**
 
 - 지도 기반 합주실 검색과 필터 UI 중심의 모바일 웹앱 MVP 구축
-- `React` · `TypeScript` · `Zustand` · `React Query` · `styled-components` · `Vite`
+- `React` · `TypeScript`
 - 프론트엔드 공개 · 백엔드 비공개
 
 ---
