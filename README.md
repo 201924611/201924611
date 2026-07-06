@@ -94,15 +94,25 @@
 - 내장 웹 채팅 UI · Telegram 채널 · 데스크톱 앱(.exe) 패키징까지 구현
 - `Python` · `FastAPI` · LLM 에이전트 오케스트레이션
 
+### [AI 면접관 Agent — RAG 기반 에이전트형 모의면접](https://github.com/201924611/ai-interviewer-agent) · KT AIVLE 미니프로젝트
+> 이력서를 올리면 직무 맞춤 질문 생성 → 답변 평가 → 최종 보고서까지 진행하는 LangGraph 에이전트 · **개인과제(v1) → 팀과제(v2) 고도화**
+
+- **LangGraph 상태 그래프** — Resume 분석·요약 → 질문 전략 수립 → 도입 질문 → 답변 평가(**reflection 노드**) → 인터뷰 진행 검토(종료/추가질문 판단) → 최종 평가 보고서
+- **RAG** — 전략별 참조 질문을 **Vector DB**로 구성해 맥락 맞춤 질문 생성
+- **Gradio 웹 UI** + **Google Drive 연동**(이력서 파일 입출력)
+- `Python` · `LangGraph` · `LangChain` · `OpenAI API` · `RAG(Vector DB)` · `Gradio` · `PyDrive2`
+
 ---
 
 ## 🧑‍🤝‍🧑 팀 / 공모전
 
-### [AI 기반 통합 공항시설 관리 시스템](https://github.com/airport-ai-facility-monitoring) · 팀 프로젝트
-> 지방공항용 저비용·고효율 AI 시설 관리 솔루션 — 이상 탐지 · 수리비용/기간 예측 · **보고서 자동 생성** 올인원 시스템
+### [AI 기반 통합 공항시설 관리 시스템](https://github.com/201924611/airport) · 팀 프로젝트
+> 지방공항용 저비용·고효율 AI 시설 관리 솔루션 — 활주로 이상 탐지 · 수리비용/기간 예측 · **보고서 자동 생성** 올인원 시스템
 
-- AI 리포트 생성(`ai-report`, `ai-report-maintenance`)과 프론트/백엔드 워크스페이스로 구성된 **멀티 레포 팀 프로젝트**
-- `Java` · `Spring Boot` · `JavaScript` · `Vue` · `AI 리포트 자동화`
+- **이벤트 기반 MSA (Kafka)** — Event Storming(msaez.io)으로 설계한 **7개 마이크로서비스**(회원·알림·경보·활주로 균열 탐지·활주로 이물질(FOD) 탐지·장비 분석·장비 대시보드)를 Kafka 이벤트로 느슨하게 결합
+- **Spring Cloud Gateway** 단일 진입점 + 서비스별 독립 DB, **Docker Compose·Kubernetes**로 컨테이너 배포·운영
+- **AI 리포트 자동화** — 이상 탐지 결과로 수리비용·기간을 예측하고 보고서를 자동 생성(`ai-report`, `ai-report-maintenance`)
+- `Java` · `Spring Boot` · `Spring Cloud Gateway` · `Apache Kafka` · `Vue` · `Docker` · `Kubernetes`
 
 ### [Bilive — 밴드 합주실 예약 플랫폼](https://github.com/PROFITLAB-HACKATHON-2025/bilive_frontend) · 해커톤
 > 밴드 합주실 검색·예약·커뮤니티를 하나로 묶은 모바일 웹앱 · **2025 PROFITLAB 해커톤 출품작 (팀 프로젝트)**
